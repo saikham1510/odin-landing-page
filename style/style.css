@@ -1,0 +1,301 @@
+/* Table of Contents */
+/*
+1. Global
+2. Backgrounds
+3. Colors
+4. Components
+5. Images
+6. Typography
+*/
+
+/* Global */
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* --- x --- x --- x --- */
+
+/* Backgrounds */
+
+.bg-light {
+    background-color: #fff;
+}
+
+.bg-dark {
+    background-color: #1f2937;
+}
+
+.bg-blue {
+    background-color: #3882f6;
+}
+
+/* --- x --- x --- x --- */
+
+/* Colors */
+
+.text-light {
+    color: #f9faf8;;
+}
+
+.text-dark {
+    color: #000;
+}
+
+.text-gray {
+    color: #e5e7eb;
+}
+
+.outline-white {
+    outline: 1px solid #e5e7eb;
+}
+
+/* --- x --- x --- x --- */
+
+/* Components */
+
+.navbar {
+    height: 70px;
+    max-height: 100%;
+    padding: 0px 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    display: flex;
+    flex-direction: row;
+
+    list-style-type: none;
+    gap: 5px;
+}
+
+.nav-link {
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+.main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 400px;
+}
+
+.hero-body {
+    display: flex;
+    flex-flow: column;
+    align-items: flex-start;
+}
+
+.hero-illustration {
+    width: 400px;
+    height: 200px;
+}
+
+.btn {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 100vmax;
+    width: 100px;
+    cursor: pointer;
+}
+
+.card-group {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card {
+    width: 200px;
+    height: 350px;
+    border: 1px solid #1f2937;
+    box-shadow: 1px 1px 5px 0px #1f2937;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cta {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+}
+
+.cta .btn {
+    align-self: flex-end;
+}
+
+/* --- x --- x --- x --- */
+
+/* Images */
+
+.logo {
+    width: 110px;
+    height: 70px;
+}
+
+.hero-img {
+    width: 100%;
+    height: 100%;
+}
+
+/* --- x --- x --- x --- */
+
+/* Typography */
+
+.h1 {
+    font-size: 3em;
+    font-weight: bolder;
+}
+
+.text-qoute {
+    font-style: italic;
+    font-weight: light;
+
+    width: 300px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/* --- x --- x --- x --- */
+
+/* Utilities */
+
+/* margins */
+
+.m-10 {
+    margin: 10px;
+}
+
+.my-10 {
+    margin: 10px 0;
+}
+
+.my-20 {
+    margin: 20px 0;
+}
+
+.my-30 {
+    margin: 30px 0;
+}
+
+.mt-10 {
+    margin-top: 10px;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+.mb-10 {
+    margin-bottom: 10px;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+/* --- x --- x --- x --- */
+
+/* paddings */
+
+.p-10 {
+    padding: 10px;
+}
+
+.p-20 {
+    padding: 20px;
+}
+
+.p-30 {
+    padding: 30px;
+}
+
+.pt-10 {
+    padding-top: 10px;
+}
+
+.pb-10 {
+    padding-bottom: 10px;
+}
+
+.ps-10 {
+    padding-left: 10px;
+}
+
+.pe-10 {
+    padding-right: 10px;
+}
+
+.pt-20 {
+    padding-top: 20px;
+}
+
+.pb-20 {
+    padding-bottom: 20px;
+}
+
+.ps-20 {
+    padding-left: 20px;
+}
+
+.pe-20 {
+    padding-right: 20px;
+}
+
+.pt-30 {
+    padding-top: 30px;
+}
+
+.pb-30 {
+    padding-bottom: 30px;
+}
+
+.ps-30 {
+    padding-left: 30px;
+}
+
+.pe-30 {
+    padding-right: 30px;
+}
+
+.px-10 {
+    padding: 0 10px;
+}
+
+.px-20 {
+    padding: 0 20px;
+}
+
+.px-30 {
+    padding: 0 30px;
+}
+
+.py-10 {
+    padding: 10px 0;
+}
+
+.py-20 {
+    padding: 20px 0;
+}
+
+.py-30 {
+    padding: 30px 0;
+}
+
+/* --- x --- x --- x --- */
